@@ -19,6 +19,7 @@ p{
 	font-weight: 400;
 	font-size: 24px;
 	color: #4F4F4F;
+	width: 60%;
 
 }
 
@@ -52,4 +53,16 @@ main{
 	.container, .container-lg, .container-md, .container-sm, .container-xl {
 	    max-width: 1540px;
 	}
+}
+
+@media (max-width: 900px){
+	h1{
+		font-size: 48px;
+	}
+
+	p{
+		width: 100%;
+		font-size: 18px;
+	}
+
 }
